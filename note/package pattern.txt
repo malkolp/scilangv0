@@ -1,0 +1,23 @@
+[P] = package
+[C] = class
+
+STRUCTURE
+    [P] sci
+        [C] Tool
+        [P] tool
+            [P] processor
+                [C] Terminal
+                [C] Non_terminal
+            [P] support
+                [C] Regex
+            [P] preprocessor
+                [C] Preprocessor
+                [C] Import
+                [C] Module
+            [P] register
+                [C] Identifier_table
+                [C] Value_table
+            [P] lexer
+                [C] Lexer
+            [P] syntactic
+                [C] Syntactic

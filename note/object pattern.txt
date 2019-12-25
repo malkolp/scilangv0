@@ -1,0 +1,23 @@
+class Component{
+
+    private static Component instance;
+
+    private Component(){
+        //init non-static properties
+    }
+
+    private static void init(){
+        if(instance == null)
+            instance = new Component;
+    }
+
+    public static Component use(){
+        return instance;
+    }
+
+    public static void close(){
+        instance = null;
+    }
+
+    //init non-static method
+}

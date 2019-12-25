@@ -1,0 +1,19 @@
+NO  | OBJECTIVE                |  STATUS  |
+----+--------------------------+----------|
+1.  | COMPONENT PATTERN        |    0     |
+    | 1.1. OBJECT PATTERN      |    1     |
+    | 1.2. PACKAGE STRUCTURE   |    0     |
+2.  | PROCESSOR                |    X     |
+    | 2.1. NON TERMINAL        |    X     |
+    | 2.2. TERMINAL            |    X     |
+3.  | PREPROCESSOR             |    X     |
+    | 3.1. IMPORT              |    X     |
+    | 3.2. MODULE              |    X     |
+4.  | REGISTER                 |    X     |
+    | 4.1. IDENTIFIER          |    X     |
+    | 4.2. VALUE               |    X     |
+    | 4.2. SYMBOL TABLE        |    X     |
+5.  | ERROR HANDLER            |    X     |
+6.  | LEXER                    |    X     |
+7.  | SUPPORT                  |    X     |
+    | 4.1. REGEX               |    X     |
